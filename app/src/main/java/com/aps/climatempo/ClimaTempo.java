@@ -9,6 +9,7 @@ public class ClimaTempo {
     private String maxima;
     private String minima;
     private String iuv;
+    private String cidade;
 
     public String getNome() {
         return nome;
@@ -64,5 +65,9 @@ public class ClimaTempo {
 
     public void setIuv(String iuv) {
         this.iuv = iuv;
+    }
+
+    public String getCidade() {
+        return "São Paulo";
     }
 }
